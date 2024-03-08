@@ -12,7 +12,7 @@ public class AnimationHandler : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetKey(KeyCode.Mouse0))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             m_Animator.SetTrigger("goAttack");
         }
